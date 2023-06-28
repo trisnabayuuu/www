@@ -47,8 +47,8 @@ class HalamanLogin extends StatelessWidget {
                   height: 50,
                   child: ElevatedButton(
                       onPressed: () {
-                        if (emailController.text == "amal" &&
-                            passwordController.text == "semangatpagi!") {
+                        if (emailController.text == "a" &&
+                            passwordController.text == "a") {
                           Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(

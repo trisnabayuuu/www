@@ -10,7 +10,6 @@ class HalamanPelanggan extends StatefulWidget {
 }
 
 class _HalamanPelangganState extends State<HalamanPelanggan> {
-  // const HalamanPelanggan({super.key});
   List<Pelanggan> listpelanggan = [];
   Api api = Api();
 
@@ -37,9 +36,9 @@ class _HalamanPelangganState extends State<HalamanPelanggan> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Name: ${pelanggan.name}'),
-                  Text('Alamat: ${pelanggan.alamat}'),
-                  Text('keterangan: ${pelanggan.keterangan}'),
+                  Text('name: ${pelanggan.title}'),
+                  // Text('address: ${pelanggan.address}'),
+                  Text('descriptiom: ${pelanggan.description}'),
                 ],
               ),
             );
